@@ -5,7 +5,7 @@ function App() {
   return (
 
     <div>
-      <h1>Little Lemon Capstone</h1>
+      <h1>Meta Frontend Developer Capstone Starter Files</h1>
     </div>
   );
 }
