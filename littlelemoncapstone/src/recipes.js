@@ -1,5 +1,5 @@
 const recipes = [
-    { 
+    {
       id: 1,
       title: "Greek salad",
       price: 12.99,
@@ -25,4 +25,6 @@ const recipes = [
     },
 
   ];
+
   export default recipes;
+
