@@ -1,13 +1,17 @@
-import React from 'react';
+import { BrowserRouter as Router } from 'react-router-dom';
 import './App.css';
+import AppRoutes from './pages/AppRoutes ';
 
 function App() {
   return (
+    <>
 
-    <div>
-      <h1>Meta Frontend Developer Capstone Starter Files</h1>
-    </div>
+    <Router  basename={process.env.PUBLIC_URL}>
+      <AppRoutes />
+    </Router>
+    </>
   );
 }
 
 export default App;
+

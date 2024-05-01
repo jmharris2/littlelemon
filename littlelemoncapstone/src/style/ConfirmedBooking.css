@@ -1,0 +1,92 @@
+.conf-h{
+    text-align: center;
+    color: #333333;
+    font-size: 3.5rem;
+    margin: 50px 0;
+
+}
+.div-layer{
+    margin: 0 200px;
+
+}
+
+.conf-all{
+    display: inline-block;
+    padding-top: 15px;
+    width: 50% ;
+    height: 100px;
+    text-align: center;
+    font-size: 1.5rem;
+    color: black;
+
+}
+.conf-date{
+    background-color: #ee9979;
+    opacity: .7;
+
+
+}
+.conf-time{
+    background-color: #495E57;
+    opacity: .7;
+
+
+}
+.conf-guests{
+    background-color: #f4ce14;
+    opacity: .7;
+
+
+
+}
+.conf-occasion{
+    background-color: #FBDABB;
+    opacity: .7;
+
+
+}
+.con-th{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #333333;
+    margin-bottom: 50PX;
+
+}
+
+ @media (max-width: 992px) {
+    .conf-h{
+        font-size: 3rem;
+
+    }
+
+    .conf-all{
+        height: 100px;
+        font-size: 1.3rem;
+
+    }
+
+    .con-th{
+        font-size: 1.2rem;
+    }
+
+
+}
+ @media (max-width: 768px) {
+    .conf-h{
+        font-size: 2.5rem;
+    }
+    .div-layer{
+        margin: 0 ;
+    }
+    .conf-all{
+        font-size: 1.3rem;
+    }
+
+    .con-th{
+        margin-top: 20px;
+        font-size: 1.1rem;
+    }
+
+}

@@ -1,0 +1,155 @@
+
+.booking-layer{
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    align-items: center;
+    justify-content: center;
+}
+.form-booking{
+        display: grid;
+        width: 250px;
+         gap: 10px;
+         margin: 50px;
+         background-color: #333333;
+         color: #edefee;
+         padding: 20px 0;
+         /* border-radius: 8px; */
+          margin-right: 80px;
+         border: 4px solid #edefee;
+}
+label{
+    font-size: .8rem;
+}
+input,select,label{
+    width: 190px;
+    margin-left: 20px;
+    border: none;
+}
+
+input,select{
+    background-color: #edefee;
+    outline: none;
+    padding: 0 5px;
+    color: #333333 ;
+
+}
+.guests-nu{
+    width: 160px;
+}
+.occasion{
+    width: 120px;
+
+}
+.time-selected{
+    color: #ee9972;
+    font-size: .8rem;
+    font-weight: 400;
+    margin-left: 20px;
+}
+.submit-btn{
+    /* width: 150px; */
+    height: 28px;
+    /* margin-left: 40px; */
+    margin-top: 10px;
+    border-radius: 2px;
+    background-color: #f4ce14;
+    font-family: 'Markazi Text', serif;
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+
+
+}
+.submit-btn:hover{
+    /* background-color: #fbdabb; */
+    background-color: #ee9972;
+    /* background-color: #495e57; */
+}
+.section-p{
+    margin-left: 50px;
+
+}
+
+.h-booking{
+    font-family: 'Markazi Text', serif;
+    font-size: 3.5rem;
+    color:#333333;
+    width: 290px;
+    letter-spacing: 5px;
+    line-height: 40px;
+    margin-bottom: 20px;
+
+}
+
+.p-booking{
+    width: 500px;
+    color:#333333;
+    font-weight: 600;
+    font-size: .8rem;
+
+}
+
+
+ @media (max-width: 992px) {
+
+    .form-booking{
+            width: 240px;
+            margin-right: 20px;
+    }
+
+    .h-booking{
+        font-size: 2.9rem;
+        letter-spacing: 6px;
+    }
+
+    .p-booking{
+        width: 350px;
+        font-size: .7rem;
+
+    }
+
+}
+ @media (max-width: 768px) {
+    .booking-layer{
+        grid-template-columns: auto;
+        grid-template-rows: auto auto;
+    }
+    .form-booking{
+        width: 260px;
+        margin-right: 0;
+        grid-row: 2 / 2;
+
+    }
+
+    input,select,label{
+        width: 200px;
+    }
+
+
+    .submit-btn{
+        letter-spacing: 1px;
+    }
+
+    .section-p{
+        margin-left: 0;
+        grid-row: 1 / 2;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .h-booking{
+        font-size: 2.1rem;
+        width: 100%;
+        letter-spacing: 2px;
+        border-bottom: 2px solid #f4ce14;
+        border-top: 2px solid #f4ce14;
+
+    }
+    .p-booking{
+        width: 350px;
+        font-size: .9rem;
+    }
+
+}
